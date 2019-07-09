@@ -1,0 +1,57 @@
+/*
+* Copyright (c) 2019 - Lal Samuel Varghese (lalsam@gmail.com)
+*/
+
+@CHARSET "UTF-8";
+
+.top-container {
+    display: flex;
+    justify-content: space-between
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    color: #b81900
+}
+
+h3 {
+    color: #1c94c4
+}
+
+body {
+    background: #eee;
+    width: 800px;
+    font-size: 11pt;
+    border: solid 1pt grey;
+    padding: 10px 10px 10px 10px;
+}
+
+textarea {
+    width: 500px;
+    height: 200px;
+    resize: vertical
+}
+
+table {
+    width: 100%;
+    border-spacing: 1px;
+    font-size: 10pt;
+}
+
+th {
+    background-color: whitesmoke;
+    font-weight: normal;
+}
+
+td {
+    background-color: seashell;
+    text-align: center;
+}
+
+aside {
+    width: 300px;
+}
