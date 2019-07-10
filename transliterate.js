@@ -4,7 +4,7 @@
 
 function manglishToMalayalam() {
     var m = document.getElementById("manglish");
-    var manglish = m.value;
+    var manglish = m.value.toLowerCase();
     var malayalam = transliterate(manglish, false);
     var n = document.getElementById("malayalam");
     n.value = malayalam;
