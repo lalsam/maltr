@@ -4,6 +4,11 @@
 
 @CHARSET "UTF-8";
 
+@font-face {
+    font-family: rachana;
+    src: url(Rachana-Regular.ttf);
+}
+
 .top-container {
     display: flex;
     justify-content: space-between
@@ -33,7 +38,19 @@ body {
 textarea {
     width: 500px;
     height: 200px;
-    resize: vertical
+    resize: vertical;
+    font-size: 10pt;
+}
+
+#malayalam {
+    font-family: rachana;
+}
+
+.ml {
+    font-family: rachana;
+    font-size: 10pt;
+    padding-top: 2px;
+    padding-bottom: 0px;
 }
 
 table {
@@ -43,13 +60,18 @@ table {
 }
 
 th {
-    background-color: whitesmoke;
-    font-weight: normal;
+    background-color: white;
 }
 
 td {
     background-color: seashell;
     text-align: center;
+    font-size: 10pt;
+    padding-bottom: 2px;
+}
+
+td.ml {
+    background-color: whitesmoke;
 }
 
 aside {
